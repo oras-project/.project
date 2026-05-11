@@ -1,0 +1,67 @@
+# .project metadata for ORAS
+# Documentation: https://github.com/cncf/automation/tree/main/utilities/dot-project
+
+# TODO: Add package_managers if distributed via registries
+
+schema_version: "1.0.0"
+slug: "oras"
+name: "ORAS"
+description: "ORAS is the tool for working with OCI Artifacts"
+type: "project"
+project_lead: "TerryHowe" # TODO: AUTO-DETECTED — please verify
+cncf_slack_channel: "#oras" # TODO: AUTO-DETECTED — please verify
+# Also detected: "#CJ1KHJM5Z", "#C02AJS1BUTX", "#oras-artifacts-spec", "#C01GVR8SY4R" — please verify the correct channel
+
+maturity_log:
+  - phase: "sandbox"
+    date: "2021-07-13T00:00:00Z"
+    issue: "https://github.com/cncf/toc/pull/943" # TODO: AUTO-DETECTED — please verify
+
+repositories:
+  - "https://github.com/oras-project/oras"
+
+website: "https://oras.land/"
+
+artwork: "https://landscape.cncf.io/logos/oras.svg"
+
+adopters:
+  path: "https://github.com/oras-project/oras/blob/main/ADOPTERS.md"
+
+# TODO: Add package manager identifiers if your project is distributed via registries
+# package_managers:
+#   docker: "oras-project/oras"
+
+social:
+  twitter: "https://twitter.com/orasproject"
+
+security:
+  policy:
+    path: "https://github.com/oras-project/oras/blob/main/SECURITY.md"
+  contact:
+    advisory_url: "https://github.com/oras-project/oras/security/advisories/new"
+
+governance:
+  contributing:
+    path: "https://github.com/oras-project/oras/blob/main/CONTRIBUTING.md"
+  code_of_conduct:
+    path: "https://github.com/oras-project/oras/blob/main/CODE_OF_CONDUCT.md"
+
+legal:
+  license:
+    path: "https://github.com/oras-project/oras/blob/main/LICENSE"
+  identity_type:
+    has_dco: true # AUTO-DETECTED — please verify
+    has_cla: false # AUTO-DETECTED — please verify
+    dco_url:
+      path: "https://developercertificate.org/"
+
+documentation:
+  readme:
+    path: "https://github.com/oras-project/oras/blob/main/README.md"
+
+landscape:
+  category: "Runtime"
+  subcategory: "Cloud Native Storage"
+
+# CLOMonitor Score: 77/100
+# Documentation: 95 | License: 75 | Best Practices: 26 | Security: 80

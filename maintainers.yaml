@@ -1,0 +1,29 @@
+# Maintainer roster for ORAS
+# Documentation: https://github.com/cncf/automation/tree/main/utilities/dot-project
+
+
+maintainers:
+  - project_id: "oras"
+    org: "oras-project"
+    teams:
+      - name: "project-maintainers"
+        members:
+          - TerryHowe
+          - Wwwsylvia
+          - sabre1041
+          - sajayantony
+          - shizhMSFT
+          - qweeah
+          - terryhowe
+          - wwwsylvia
+          - stevelasker
+          - vsoch
+          - FeynmanZhou
+          - asmitbm
+          - bacongobbler
+          - flavio
+          - thomastaylor312
+          - wangxiaoxuan273
+          - shizhmsft
+          - akashsinghal
+          - sammychinedu2ky
