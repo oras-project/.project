@@ -9,8 +9,10 @@ name: "ORAS"
 description: "ORAS is the tool for working with OCI Artifacts"
 type: "project"
 project_lead: "TerryHowe" # TODO: AUTO-DETECTED — please verify
-cncf_slack_channel: "#oras" # TODO: AUTO-DETECTED — please verify
-# Also detected: "#CJ1KHJM5Z", "#C02AJS1BUTX", "#oras-artifacts-spec", "#C01GVR8SY4R" — please verify the correct channel
+slack_channels:
+  - name: "#oras"
+    workspace: "cncf"
+    primary: true
 
 maturity_log:
   - phase: "sandbox"
