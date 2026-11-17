@@ -25,7 +25,7 @@ website: "https://oras.land/"
 artwork: "https://github.com/cncf/artwork/tree/main/projects/oras"
 
 adopters:
-  path: "https://github.com/oras-project/oras/blob/main/ADOPTERS.md"
+  path: "https://oras.land/adopters/"
 
 package_managers:
   homebrew: "oras"
