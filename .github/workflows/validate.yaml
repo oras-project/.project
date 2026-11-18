@@ -20,7 +20,7 @@ jobs:
         with:
           fetch-depth: 0
 
-      - uses: cncf/automation/.github/actions/validate-project@85e0bcd298817a6e26e286d6b22615f8c81b4e4b
+      - uses: cncf/automation/.github/actions/validate-project@b9e339252a1336b2d06d403d90797902673a1064
         with:
           project_file: 'project.yaml'
           check_links: 'true'
@@ -32,7 +32,7 @@ jobs:
         with:
           fetch-depth: 0
 
-      - uses: cncf/automation/.github/actions/validate-maintainers@85e0bcd298817a6e26e286d6b22615f8c81b4e4b
+      - uses: cncf/automation/.github/actions/validate-maintainers@b9e339252a1336b2d06d403d90797902673a1064
         with:
           maintainers_file: 'maintainers.yaml'
           # Disabled until the LFX LLT issue is resolved, matching the upstream
