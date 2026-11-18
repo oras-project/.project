@@ -20,7 +20,28 @@ maturity_log:
     issue: "https://github.com/cncf/toc/pull/943" # TODO: AUTO-DETECTED — please verify
 
 repositories:
-  - "https://github.com/oras-project/oras"
+  - url: "https://github.com/oras-project/oras"
+    primary: true
+
+  # Client libraries
+  - url: "https://github.com/oras-project/oras-go"
+    tags: [sdk]
+  - url: "https://github.com/oras-project/oras-py"
+    tags: [sdk]
+  - url: "https://github.com/oras-project/oras-java"
+    tags: [sdk]
+  - url: "https://github.com/oras-project/oras-dotnet"
+    tags: [sdk]
+  - url: "https://github.com/oras-project/rust-oci-client"
+    tags: [sdk]
+  - url: "https://github.com/oras-project/rust-oci-client-node"
+    tags: [sdk]
+
+  # Documentation and tooling
+  - url: "https://github.com/oras-project/oras-www"
+    tags: [docs]
+  - url: "https://github.com/oras-project/setup-oras"
+    tags: [tooling]
 
 website: "https://oras.land/"
 
