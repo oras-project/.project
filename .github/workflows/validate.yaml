@@ -20,9 +20,10 @@ jobs:
         with:
           fetch-depth: 0
 
-      - uses: cncf/automation/.github/actions/validate-project@95d25b12337a14e4a74f690c856f6903584e839e
+      - uses: cncf/automation/.github/actions/validate-project@b9e339252a1336b2d06d403d90797902673a1064
         with:
           project_file: 'project.yaml'
+          check_links: 'true'
 
   validate-maintainers:
     runs-on: ubuntu-latest
@@ -31,9 +32,12 @@ jobs:
         with:
           fetch-depth: 0
 
-      - uses: cncf/automation/.github/actions/validate-maintainers@95d25b12337a14e4a74f690c856f6903584e839e
+      - uses: cncf/automation/.github/actions/validate-maintainers@b9e339252a1336b2d06d403d90797902673a1064
         with:
           maintainers_file: 'maintainers.yaml'
-          verify_maintainers: 'true'
-        env:
-          LFX_AUTH_TOKEN: ${{ secrets.LFX_AUTH_TOKEN }}
+          # Disabled until the LFX LLT issue is resolved, matching the upstream
+          # recommendation. Maintainer verification is done manually for now.
+          # LFX_AUTH_TOKEN is not configured on this repository, so leaving this
+          # on only skips the check silently and implies a gate that is not there.
+          verify_maintainers: 'false'
+          check_links: 'true'
